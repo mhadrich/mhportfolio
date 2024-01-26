@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mhportfolio/static/css/main.8a4ec72d.css",
-    "main.js": "/mhportfolio/static/js/main.5212ae48.js",
-    "static/media/Malek-Hadrich-CV.pdf": "/mhportfolio/static/media/Malek-Hadrich-CV.b0f7a5d87092025767b5.pdf",
-    "static/media/_G5A0025.png": "/mhportfolio/static/media/_G5A0025.e9d4f7ef1be86e8cd93a.png",
-    "index.html": "/mhportfolio/index.html",
-    "main.8a4ec72d.css.map": "/mhportfolio/static/css/main.8a4ec72d.css.map",
-    "main.5212ae48.js.map": "/mhportfolio/static/js/main.5212ae48.js.map"
+    "main.css": "/mhadrich.github.io/static/css/main.25c16185.css",
+    "main.js": "/mhadrich.github.io/static/js/main.7967690b.js",
+    "static/media/Malek-Hadrich-CV.pdf": "/mhadrich.github.io/static/media/Malek-Hadrich-CV.b0f7a5d87092025767b5.pdf",
+    "static/media/_G5A0025.png": "/mhadrich.github.io/static/media/_G5A0025.e9d4f7ef1be86e8cd93a.png",
+    "index.html": "/mhadrich.github.io/index.html",
+    "main.25c16185.css.map": "/mhadrich.github.io/static/css/main.25c16185.css.map",
+    "main.7967690b.js.map": "/mhadrich.github.io/static/js/main.7967690b.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a4ec72d.css",
-    "static/js/main.5212ae48.js"
+    "static/css/main.25c16185.css",
+    "static/js/main.7967690b.js"
   ]
 }
