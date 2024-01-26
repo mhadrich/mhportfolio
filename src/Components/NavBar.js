@@ -5,8 +5,8 @@ function NavBar({ mobile }) {
   console.log(active);
   const linksStyle = mobile
     ? active
-      ? "p-6 font-light dark:text-white opacity-100 transition-all duration-1000"
-      : "p-6 font-light dark:text-white opacity-0 transition-all duration-1000"
+      ? "p-6 font-light dark:text-white opacity-100 transition-all duration-500"
+      : "p-6 font-light dark:text-white opacity-0 transition-all duration-500"
     : "p-6 font-light dark:text-white";
   return (
     <div>

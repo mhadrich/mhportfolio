@@ -15,8 +15,8 @@ function App() {
   return (
     <div className="flex flex-col dark:bg-black ">
       <NavBar mobile={isMobile}/>
-      {/* <Hero /> */}
-      {/* <ExternalLinks /> */}
+      <Hero mobile={isMobile} />
+      <ExternalLinks />
       {/* <MainView /> */}
       {/* <About /> */}
       {/* <Testimonial /> */}
