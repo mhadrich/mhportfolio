@@ -1,10 +1,11 @@
 import React from "react";
 
 function ExternalLinks() {
+  const aClassStyle = "scale-[.3] sm:scale-50 lg:scale-100 fill-light hover:fill-highlight duration-1000";
   return (
-    <div className="flex px-20 items-center gap-6 justify-between  w-screen h-40 bg-primary">
+    <div className="flex lg:px-20 items-center lg:gap-6 justify-between  w-full h-40 bg-primary">
       <a
-        className="fill-light hover:fill-highlight duration-1000"
+        className={aClassStyle}
         target="_blank"
         href="https://github.com/mhadrich"
       >
@@ -18,7 +19,7 @@ function ExternalLinks() {
         </svg>
       </a>
       <a
-        className="fill-light hover:fill-highlight duration-1000"
+        className={aClassStyle}
         target="_blank"
         href="https://www.behance.net/whityxx"
       >
@@ -29,7 +30,7 @@ function ExternalLinks() {
         </svg>
       </a>
       <a
-        className="fill-light hover:fill-highlight duration-1000"
+        className={aClassStyle}
         target="_blank"
         href="https://www.linkedin.com/in/malek-hadrich-ba820141/"
       >
@@ -47,7 +48,7 @@ function ExternalLinks() {
         </svg>
       </a>
       <a
-        className="fill-light hover:fill-highlight duration-1000"
+        className={aClassStyle}
         target="_blank"
         href="https://500px.com/p/whityxx"
       >
