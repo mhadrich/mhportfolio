@@ -6,20 +6,24 @@ import ExternalLinks from "./Components/ExternalLinks";
 import About from "./Components/About";
 import Testimonial from "./Components/Testimonial";
 import MainView from "./Components/Projects/MainView";
+import WIP from "./Components/WIP";
 
 function App() {
-  const [isMobile,setIsMobile]= useState("");
-  useEffect(()=>{
-    window.innerWidth<700 ? setIsMobile(true) : setIsMobile(false);
-  },[])
+  const [isMobile, setIsMobile] = useState("");
+  useEffect(() => {
+    window.innerWidth < 700 ? setIsMobile(true) : setIsMobile(false);
+  }, []);
   return (
     <div className="flex flex-col dark:bg-black ">
-      <NavBar mobile={isMobile}/>
-      <Hero mobile={isMobile} />
-      <ExternalLinks />
-      {/* <MainView /> */}
-      {/* <About /> */}
-      {/* <Testimonial /> */}
+      <WIP />
+      <div className="pt-10">
+        <NavBar mobile={isMobile} />
+        <Hero mobile={isMobile} />
+        <ExternalLinks />
+        {/* <MainView /> */}
+        {/* <About /> */}
+        {/* <Testimonial /> */}
+      </div>
     </div>
   );
 }
